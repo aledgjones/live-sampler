@@ -1,0 +1,37 @@
+@keyframes rotate {
+  0% {
+    transform: rotateZ(-90deg);
+  }
+  100% {
+    transform: rotateZ(270deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 5, 120.66;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 100, 25.66;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 5, 120.66;
+    stroke-dashoffset: -125.66;
+  }
+}
+
+.ui-spinner {
+  position: relative;
+  transform: rotateZ(-90deg);
+  animation: rotate 1.5s linear infinite;
+}
+
+.ui-spinner__circle {
+  transform-origin: 50% 50%;
+  stroke-linecap: round;
+  stroke-width: 4px;
+  fill: none;
+  animation: dash 1.5s infinite;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "sample-player-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "pullstate": "^1.22.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webmidi": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "Aled Jones",
+  "license": "MIT"
+}

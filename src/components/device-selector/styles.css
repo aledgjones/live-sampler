@@ -1,0 +1,40 @@
+.device-selector {
+  position: relative;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 0 20px rgb(200, 200, 200);
+  cursor: pointer;
+}
+
+.device-selector__value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.device-selector__options {
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  width: 100%;
+}
+
+.device-selector__option {
+  padding: 20px;
+  border-top: 1px solid rgb(200, 200, 200);
+}
+
+.device-selector__option--disabled {
+  color: rgb(200, 200, 200);
+  font-style: italic;
+}
+
+.device-selector__label-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.device-selector__label-with-icon svg {
+  margin-right: 12px;
+}

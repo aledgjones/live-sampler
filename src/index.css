@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgba(235, 235, 235);
+  color: rgb(50, 50, 50);
+}
+
+.view {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 40px rgb(200, 200, 200);
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.lighter {
+  color: rgb(100, 100, 100);
+  font-style: italic;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
